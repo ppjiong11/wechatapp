@@ -1,0 +1,7 @@
+<!-- index.wxml -->
+<view>
+  <input bindinput="onInput" placeholder="请输入文字"></input>
+  <button bindtap="sendMessage">发送</button>
+
+  <button bindtap="takePhoto">拍照</button>
+</view>
